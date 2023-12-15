@@ -1,0 +1,339 @@
+body {
+  margin: 0px;
+  font-family: "Roboto Slab";
+}
+.color-text {
+  color: #5d3d04;
+}
+#header {
+  background-image: url("images/menu-image-title.png");
+  height: 115vh;
+  width: 100%;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  margin: 0px 140px 0px 120px;
+}
+
+.header-main {
+  padding-top: 77px;
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  padding-top: 19px;
+  margin-left: 2%;
+}
+.header-main:last-child {
+  margin-right: 0px;
+}
+.nav-item:last-child {
+  margin-right: 0px;
+}
+.nav-item:last-child {
+  margin-right: 0px;
+}
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 100px;
+  transition: color 0.3s linear;
+}
+.nav-item:hover {
+  color: #4d4d4d;
+}
+.menu-title {
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 152px; /* 102.703% */
+}
+.menu-groop {
+  padding-top: 210px;
+  color: #fff;
+}
+.menu-title-desc {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header-starter {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 90px;
+}
+.title-starter {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 111.111% */
+}
+.desc-starter {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.48px;
+}
+.desc-title-starter {
+  text-align: center;
+  padding-right: 100px;
+  padding-top: 122px;
+  color: #5d3d04;
+}
+.menu-starters {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-starters-desc {
+  padding-left: 122px;
+}
+.price {
+  text-align: right;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0px;
+}
+.line {
+  border-top: 5px dotted;
+}
+.title-plate {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 84px; /* 123.529% */
+  padding: 24px 0px;
+  margin: 0px;
+  color: #5d3d04;
+}
+.desc-plate {
+  color: #5d3d04;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.48px;
+  margin: 0px;
+}
+
+.desc-starter {
+  margin-bottom: 56px;
+}
+
+.title-main-plate {
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 120px; /* 111.111% */
+}
+.desc-main-plate {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.48px;
+  color: #5d3d04;
+  margin: 0px;
+}
+.header-main-plate {
+  text-align: center;
+  padding-top: 105px;
+  margin-bottom: 166px;
+}
+.menu-main-plates {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-main-plates-desc {
+  padding-right: 102px;
+}
+.main-plates {
+  padding-bottom: 82px;
+}
+.title-drinks {
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 111.111% */
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+  color: #5d3d04;
+}
+.desc-drink {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.48px;
+  color: #5d3d04;
+}
+.header-drinks {
+  text-align: center;
+  background-image: url("images/Avocado.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 174px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 83px;
+}
+.menu-drinks {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 52px;
+}
+.drinks {
+  padding-bottom: 41px;
+}
+.title-bronirovaniye {
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 151.2px */
+  letter-spacing: 2.16px;
+  position: absolute;
+  align-items: center;
+  padding-left: 20%;
+  padding-top: 8%;
+}
+.header-bronirovaniye {
+  display: flex;
+  justify-content: space-between;
+}
+.style-form {
+  margin-right: 10px;
+  width: 363px;
+  height: 96px;
+  color: #5d3d04;
+  border: solid 2px #5d3d04;
+  font-family: "Roboto Slab";
+  font-size: 24px;
+  padding-left: 40px;
+}
+::placeholder {
+  color: #5d3d04;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url("images/free-icon-calendar-7454345.png");
+}
+#form {
+  margin-top: 46px;
+  margin-bottom: 180px;
+}
+.bronBtn {
+  margin: 0 auto;
+  display: block;
+  width: 344px;
+  height: 88px;
+  font-family: "Roboto Slab";
+  color: #5d3d04;
+  background-color: #cabbb1;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  border: none;
+  margin-bottom: 126px;
+}
+.bronBtn:hover {
+  background-color: blanchedalmond;
+  color: #4d4d4d;
+  outline: 0;
+}
+/*---------------------------------footer------------------------------*/
+#footer {
+  background-color: #c6b2a3;
+  color: #5d3d04;
+  margin: 0px;
+}
+.groop-footer {
+  padding-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.logotip {
+  padding: 60px 0px;
+  position: relative;
+}
+.header-footer {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  align-items: center;
+}
+.navigation {
+  margin-top: -7%;
+  line-height: 25px;
+  font-size: 20px;
+}
+.navigation-desc {
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: #5d3d04;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400px;
+  letter-spacing: 0.4px;
+}
+.navigation-desc:hover {
+  color: #4d4d4d;
+}
+.telephone-desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.36px;
+}
+.time-footer {
+  width: 321px;
+  height: 148px;
+  line-height: 25px;
+  padding-top: 4px;
+}
+.addres-desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: 155.388%;
+}
+.addres-header {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 22px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.chas-footer {
+  font-size: 18px;
+  align-items: center;
+}
+.soc-seti-images {
+  display: flex;
+  justify-content: space-between;
+  color: #5d3d04;
+}
+.soc-seti {
+  padding-top: 120px;
+}
+.time-desc {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 104.167% */
+  letter-spacing: 0.48px;
+}
+.contacts-footer {
+  width: 163px;
+  height: 148px;
+  align-items: center;
+}
